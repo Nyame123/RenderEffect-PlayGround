@@ -21,7 +21,7 @@ const val ShaderSource = """
     half4 main(float2 cord){
         half4 color = composable.eval(cord);
         color.a = step(visibility, color.a);
-        return color
+        return color;
     }
 """
 
